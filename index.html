@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lesson 16</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__content">
+				<form class="form" action="#">
+					<div class="form__text">
+						<h1 class="name-form">Make an appointment </h1>
+					</div>
+					<div class="form__input">
+						<input class="input" autocomplete="off" required placeholder="Name" name="username" value=""
+							type="text">
+						<input class="input" required placeholder="Email" name="email" type="email">
+						<input class="input" required placeholder="Phone Number" name="tel" required type="tel">
+						<input class="input" placeholder="Select Service" name="text" type="text">
+						<textarea class="textarea" placeholder="Tell us about your puppers include his/her "
+							name="text"></textarea>
+						<button class="button" type="submit">Make an Appointment</button>
+					</div>
+			</div>
+			</form>
+		</header>
+		<main class="main">
+			<div class="main__content">
+				<div class="registered">
+					<div class="registered__conteiner">
+						<form class="form-registered" action="#">
+							<div class="form-registered__text">
+								<h2 class="name-form-registered">Registered Customers</h2>
+								<p class="paragraf-form-registered_">If you have an account, sign in with your email address.
+								</p>
+							</div>
+							<div class="form-registered__input">
+								<div class="input-type">Email <span class="red">*</span></div>
+								<input class="input" autocomplete="off" required placeholder="Your Email" name="username"
+									value="" type="email">
+								<div class="input-type">Password <span class="red">*</span></div>
+								<input class="input" required placeholder="Your Password" name="email" type="password">
+							</div>
+							<div class="form-registered__button">
+								<button class="button button-blue" type="submit">Sign In</button>
+								<button class="button button-opacity" type="submit">Forgot Your Password?</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="summary">
+				<div class="summary__conteiner">
+					<form class="form-summary" action="get">
+						<div class="form-summary__text">
+							<h1 class="name-summary">Summary</h1>
+						</div>
+						<div class="form-summary__choise">
+							<label for="choise-id-up" class="choise-name">Estimate Shipping and Tax</label>
+							<!-- <input id="choise-id-up" autocomplete="off" type="checkbox" name="discount-code" class="input"> -->
+							<div class="radiobuttons-input-choise">
+								<label for="choise-id-up" class="choise-label">Enter your destination to get a shipping
+									estimate.</label>
+
+							</div>
+						</div>
+						<div class="form-summary__select">
+							<label for="select-label">Country</label>
+							<div class="select-conteiner">
+								<select name="select" class="select">
+									<option value="1" selected>Ukraine</option>
+									<option value="2">Belgium</option>
+									<option value="3">Czech Republic</option>
+									<option value="4">Ireland</option>
+								</select>
+							</div>
+						</div>
+						<div class="form-summary__input">
+							<label for="input-2">State/Province</label>
+							<div class="input-conteiner"><input id="input-2" type="text"></div>
+							<label for="input-3">Zip/Postal Code</label>
+							<div class="input-conteiner"><input id="input-3" type="text"></div>
+						</div>
+						<div class="radiobuttons">
+							<div class="radiobuttons__item">
+								<label for="radiobutton-" class="radiobuttons__name">Standard Rate</label>
+								<div class="radiobuttons-input">
+									<input id="radiobutton-1" type="radio" name="rate" class="input-radiobutton">
+									<label for="radiobutton-1" class="radiobuttons__label">Price may vary depending on the
+										item/destination. Shop Staff will contact you. $21.00</label>
+								</div>
+							</div>
+							<div class="radiobuttons__item">
+								<label for="radiobutton-" class="radiobuttons__name">Pickup from store</label>
+								<div class="radiobuttons-input">
+									<input id="radiobutton-2" type="radio" name="rate" class="input-radiobutton">
+									<label for="radiobutton-2" class="radiobuttons__label">1234 Street Adress City Address, 1234
+										$0.00</label>
+								</div>
+							</div>
+						</div>
+						<div class="form-summary__choise">
+							<label for="choise-id" class="choise-name">Apply Discount Code</label>
+							<!-- <input id="choise-id" autocomplete="off" type="checkbox" name="discount-code" class="input"> -->
+							<div class="radiobuttons-input-choise">
+								<label for="choise-id" class="choise-label">Enter discount code</label>
+								<input id="choise-id" autocomplete="off" type="text" placeholder="Enter Discount code"
+									name="discount-code" class="input">
+							</div>
+							<div class="form-summary__button">
+								<button class="button" type="submit">Apply Discount</button>
+							</div>
+						</div>
+					</form>
+
+				</div>
+			</div>
+
+
+		</main>
+		<footer class="footer"></footer>
+	</div>
+</body>
+
+
+
+</html>
