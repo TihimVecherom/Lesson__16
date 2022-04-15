@@ -135,7 +135,7 @@ body {
 .form__input .input:focus {
 	transform: scale(1.02);
 	background: #4b4e91;
-	transition: 0.3s;
+	transition: 0.1s;
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 400;
@@ -148,7 +148,7 @@ body {
 }
 
 .form__input input::placeholder {
-	transition: 1s;
+	transition: 0.3s;
 }
 
 .form__input input:focus::placeholder {
@@ -211,7 +211,7 @@ body {
 }
 
 .form__input .textarea::placeholder {
-	transition: 1s;
+	transition: 0.3s;
 }
 
 .form__input .textarea:focus::placeholder {
@@ -219,17 +219,14 @@ body {
 	animation-name: place;
 	animation-duration: 1s;
 	animation-fill-mode: forwards;
-	transition: 1s;
+	transition: 0.3s;
 	color: #31335e00;
 	transform: rotate(20deg) translate(-100px, -40px);
 }
 
 .form__input .textarea:hover::placeholder {
 	transform: translate(0px, -40px);
-	animation-name: place;
-	animation-duration: 1s;
-	animation-fill-mode: forwards;
-	transition: 1s;
+	transition: 0.3s;
 	color: #5d61b500;
 	font-size: 0px;
 	transform: rotate(20deg);
